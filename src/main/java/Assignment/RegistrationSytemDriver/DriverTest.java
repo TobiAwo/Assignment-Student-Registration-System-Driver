@@ -7,7 +7,7 @@ import Assignment.RegSystem.Module;
 import Assignment.RegSystem.Programme;
 import Assignment.RegSystem.Student;
 
-class App {
+class DriverTest {
 
 	public static void main(String[] args) {
 		
@@ -42,7 +42,7 @@ class App {
 		Module graphics = new Module("Graphics", "1433586");
 		Module securityForesnics = new Module("Security Foresnics", "SEC");
 		Module programming = new Module("Programming", "PROG");
-		Module math = new Module("Programming", "MAT");
+		Module math = new Module("Math", "MAT");
 
 		ArrayList<Module> csModules = new ArrayList<Module>();
 		csModules.add(securityForesnics);
