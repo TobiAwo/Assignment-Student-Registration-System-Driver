@@ -10,23 +10,23 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-      <repositories>
-	    <repository>
-	    <id>jitpack.io</id>
-	    <url>https://jitpack.io</url>
-		</repository>
-    </repositories>
-  <dependencies>
+    <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
- 	    <groupId>com.github.TobiAwo</groupId>
- 	    <artifactId>Assignment-Student-Registration-System</artifactId>
- 	    <version>-SNAPSHOT</version>
- 	</dependency>
+	<dependency>
+	    <groupId>com.github.TobiAwo</groupId>
+	    <artifactId>Assignment-Student-Registration-System</artifactId>
+	    <version>-SNAPSHOT</version>
+	</dependency>
   </dependencies>
+      <repositories>
+	    <repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+		</repository>
+    </repositories>
 </project>
