@@ -28,10 +28,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    	<dependency>
-	    <groupId>Assignment</groupId>
-	    <artifactId>RegSystem</artifactId>
-	    <version>0.0.1-SNAPSHOT</version>
-    </dependency>
+
+    <dependency>
+ 	    <groupId>com.github.TobiAwo</groupId>
+ 	    <artifactId>Assignment-Student-Registration-System</artifactId>
+ 	    <version>-SNAPSHOT</version>
+ 	</dependency>
+
   </dependencies>
 </project>
