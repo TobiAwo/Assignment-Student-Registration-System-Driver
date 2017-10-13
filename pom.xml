@@ -29,4 +29,21 @@
 	    <url>https://jitpack.io</url>
 		</repository>
     </repositories>
+        <build>
+	  	<plugins>
+	    <plugin>
+	      <artifactId>maven-assembly-plugin</artifactId>
+	      <configuration>
+	        <descriptorRefs>
+	          <descriptorRef>jar-with-dependencies</descriptorRef>
+	        </descriptorRefs>
+	        <archive>
+	          <manifest>
+	            <mainClass>Assignment.RegistrationSytemDriver.DriverTest</mainClass>
+	          </manifest>
+	        </archive>
+	      </configuration>
+	    </plugin>
+	 	</plugins>
+	</build>
 </project>
